@@ -13,6 +13,11 @@ body{
   min-height: 100vh;
 }
 
+.logo a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+}
 /* .wrapper {
   width: 320px;
   height: 520px;

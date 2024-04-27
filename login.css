@@ -36,6 +36,16 @@
     align-items: center;
     justify-content: center;
   }
+
+  .guru {
+    margin-top: 25px;
+    background-color:#f0f0f0;
+    color: black;
+  }
+
+  .guru a {
+    text-decoration: underline;
+}
   
   /* Input teks */
   #result {

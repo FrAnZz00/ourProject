@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" href="Mbentuk.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+    <title>Tebak Warna</title>
+  </head>
+
+  <body class="Kotak">
+    <div class="Header">
+      <a id="kembaliButton" href="javascript:void(0)">
+        <img src="/assets/Vector.png" width="17.86" height="28.31"/>
+      </a>
+      <img src="/assets/Rectangle 51.png" width="280" height="22" />
+    </div>
+
+    <div class="Text">
+      <p>Manakan bentuk kotak?</p>
+    </div>
+
+    <div class="kotak">
+      <img src="/assets/kotak.png" width="130px" onclick="showNotification()">
+
+      <div class="box">
+        <img src="/assets/segitiga.png" width="160px" onclick="salah()">
+      </div>
+    </div>
+
+    <div class="Next">
+      <button id="lanjutButton">Lanjut!!!</button>
+    </div>
+
+    <script>
+      const kembaliButton = document.getElementById("kembaliButton");
+      const lanjutButton = document.getElementById("lanjutButton");
+
+      kembaliButton.addEventListener("click", function () {
+        history.back();
+      });
+
+      lanjutButton.addEventListener("click", function () {
+        window.location.href = "Mbentuk2.html";
+      });
+
+      function showNotification() {
+        Swal.fire("Selamat!", "Anda benar, ini adalah bentuk kotak!", "success");
+      }
+
+      function salah() {
+        Swal.fire("Salah!", "Ini adalah bentuk segitiga, silahkan coba lagi!", "error");
+      }
+    </script>
+  </body>
+</html>

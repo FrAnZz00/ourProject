@@ -26,39 +26,34 @@
     height: 28.31px;
     margin-right: 10px; 
   }
-  
-  .Text {
+
+  .box {
+    margin-top: 75px;
     margin-left: 15%;
-    font-family: 'Lexend', sans-serif;
+    background-color: rgba(65, 215, 236, 1);
+    width: 79%;
+    height: 58%;
   }
 
-.alphabet-container {
-    display: flex;
-    justify-content: center;
-}
-
-.alphabet-letter {
-    font-size: 24px;
-    border-bottom: 2px dotted #000;
-    margin: 0 10px;
-    padding-bottom: 5px;
-    cursor: pointer;
-}
-  
-  .Next button a {
-    text-decoration: none;
-    color: white;
+  .Objek img {
+    margin-top: 25px;
+    margin-left: 5%;
   }
-  
+
   .Next {
     font-family: 'NamaFontGujarati', sans-serif;
     margin-top: 20px;
     text-align: center;
   }
+
+  .Next button a {
+    text-decoration: none;
+    color: black;
+  }
   
   .Next button {
-    background-color: rgba(65, 215, 236, 1); 
-    color: white; 
+    background-color: white; 
+    color: black; 
     width: 218px;
     height: 51px;
     font-size: 25px;
@@ -68,4 +63,3 @@
     cursor: pointer;
     margin-bottom: 10px;
   }
-  
